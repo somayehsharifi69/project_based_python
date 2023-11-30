@@ -7,7 +7,7 @@ This project is a Python-based implementation of the popular game "Rock, Paper, 
 rock-paper-scissors/
 |
 ├── src/
-│   ├── game.py - the main game class
+│   ├── main.py 
 |
 └── README.md
 ```
