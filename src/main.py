@@ -40,7 +40,7 @@ class RockPaperScissors:
         win_combinations = [('rock', 'paper'), ('paper', 'scissors'), ('scissor', 'paper')]
         for win_comb in win_combinations:
             if (user_choice == win_comb[0]) & (computer_choice == win_comb[1]):
-                return "Congratulation, you won."
+                return "Congratulation, you won!"
             
         return "Oh, the computer won."
 
