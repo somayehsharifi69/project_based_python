@@ -63,6 +63,6 @@ if __name__ == '__main__':
 
 while True:
     game.play()
-    continue_game = input('Do you want to play again? (Enter any key to play or enter Q/q ti exit.) ')
+    continue_game = input('Do you want to play again? (Enter any key to play or enter Q/q to exit.) ')
     if continue_game.lower() == 'q':
         break
