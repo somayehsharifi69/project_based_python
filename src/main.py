@@ -8,7 +8,7 @@ from typing import List
 
 
 class RockPaperScissors:
-    """ Main class for Rock Paper Scissors play"""
+    """ Main class for Rock Paper Scissors play """
     def __init__(self, name: str):
         self.choices: List(str) = ['rock', 'paper', 'scissors']
         self.user_name = name
@@ -22,7 +22,7 @@ class RockPaperScissors:
         return self.get_user_choice()
     
     def get_computer_choice(self):
-        """Get computer choice randomly from choices Rock, paper, and scissors. """
+        """ Get computer choice randomly from choices Rock, paper, and scissors. """
         return random.choice(self.choices)
     
     def decide_winner(self, user_choice: str, computer_choice: str) -> str:
@@ -40,9 +40,9 @@ class RockPaperScissors:
         win_combinations = [('rock', 'paper'), ('paper', 'scissors'), ('scissor', 'paper')]
         for win_comb in win_combinations:
             if (user_choice == win_comb[0]) & (computer_choice == win_comb[1]):
-                return "Congratulation, you won!"
+                return "Congratulation, you won..."
             
-        return "Oh, the computer won."
+        return "Oh, the computer won..."
 
 
     def play(self):
